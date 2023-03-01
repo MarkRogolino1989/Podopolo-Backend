@@ -6,7 +6,8 @@
    CREATE DATABASE Notes;
    CREATE USER postgres WITH PASSWORD postgres;
 3. Run the command in windows cmd
-    python manage.py runserver
+   python manage.py migrate
+    python manage.py runserver     
  
  Endpoints:
   POST http://localhost:8000/api/auth/login
